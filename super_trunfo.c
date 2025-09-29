@@ -11,7 +11,7 @@ int main(){
     printf("Insira a letra do Estado: \n");
     scanf(" %c", &estado);
 
-    printf("Insira o código da carta: \n");
+    printf("Insira o código da carta (apenas numeros): \n");
     scanf("%s", codigo);
 
     printf("Insira o nome da cidade: \n");
@@ -42,12 +42,14 @@ int main(){
     printf("Número de pontos turisticos: %d\n", turistico);
 
 
+    printf("\nPrepara-se para inserir os dados da carta 2 \n");
+
     //Solicita os dados para carta2
 
-    printf("Insira a letra do Estado: \n");
+    printf("\nInsira a letra do Estado: \n");
     scanf(" %c", &estado);
 
-    printf("Insira o código da carta: \n");
+    printf("Insira o código da carta (apenas numeros): \n");
     scanf("%s", codigo);
 
     printf("Insira o nome da cidade: \n");
@@ -80,16 +82,3 @@ int main(){
 
 }
 
-
-/* printf("%formato1 %formato2", variavel1, variavel2)
-
-%d: imprime um inteiro formato decimal
-%i: equivale a %d
-%f: imprime um numero de ponto flutuante no formato padrao
-%e: imprime um numero de ponto flutuante na notação cientifica
-%c: imprime um UNICO caractere
-%s: imprime uma cadeia(string) de caracteres
-
-\n é uma quebra de linha no codigo
-
-*/
