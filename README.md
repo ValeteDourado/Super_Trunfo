@@ -1,1 +1,3 @@
 O codigo em questão trata-se de uma atividade do curso de ADS, para criação do jogo super trunfo
+
+Codigo atualizado para os proximos niveis...
